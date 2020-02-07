@@ -48,7 +48,7 @@ class Dispatcher(object):
 
     def __init__(self):
         self.trucks = [Truck("RED"), Truck("GREEN")]
-        self.targets = list(set([Target() for i in xrange(20)]))
+        self.targets = list(set([Target() for i in range(20)]))
         self.job_complete = False
 
     def move_trucks(self):
